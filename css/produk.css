@@ -61,7 +61,7 @@ article {
   height: auto;
   border-radius: 3px;
   margin: 5px 5px 5px 5px;
-  border: 0px solid gainsboro;
+  border: 1px solid gainsboro;
   clear: both;
 }
 
@@ -74,7 +74,7 @@ article .konten {
   height: auto;
   margin: 5px 5px 5px 5px;
   border-radius: 3px;
-  border: 0px solid gainsboro;
+  border: 1px solid gainsboro;
   float: left;
 }
 
@@ -83,7 +83,7 @@ article .isi {
   height: auto;
   margin: 5px 5px 5px 5px;
   border-radius: 3px;
-  border: 0px solid gainsboro;
+  border: 1px solid gainsboro;
   float: left;
 }
 article .isi .judul {
@@ -129,28 +129,4 @@ footer {
   border-bottom: 1px solid gainsboro;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-.front {
-  background-color: white;
-
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.fronttulisan {
-  color: red;
-  font-size: 70px;
-  font-weight: bolder;
-  font-family: 'Secular One', sans-serif;
-  transition: 0.5s;
-}
-
-.fronttulisan:hover {
-  transform: scale(1.05);
-}
-.frontdoang {
-  color: black;
-  font-family: 'Secular One', sans-serif;
-  font-size: 70px;
 }
